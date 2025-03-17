@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body,a,h1,h2,p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+    margin: 0; 
+}
+
+#cover{
+    background-image: url(media/snapedit_1740994623473\ 1.jpg);
+    height: 757px;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 128px;
+    color: white;
+}
+p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+button{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    height: 57px;
+    width: 289px;
+    background-color: #F93B89;
+    border-radius: 15px;
+    margin-top: 42px;
+}

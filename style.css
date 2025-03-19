@@ -79,3 +79,8 @@ border-radius: 30px;
     display: flex;
     align-items: center;
 }
+.tariff{
+    font-family: "Oswald", sans-serif;
+    display: block;
+    flex-direction: column;
+}

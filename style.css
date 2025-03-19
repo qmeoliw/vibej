@@ -2,25 +2,25 @@
 .container{
     width: 1140px;
     margin: 0 auto;
-    
 }
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
-body,a,h1,h2,p{
+body,a,h1,h2{
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     margin-right: 60px;
     text-decoration: none;
     color: black;
     margin: 0; 
+
 }
 
 #cover{
-    background-image: url(media/snapedit_1740994623473\ 1.jpg);
+    background-image: url(media/main.jpg);
     height: 757px;
     margin: 0 ;
     padding: 0;
@@ -34,12 +34,15 @@ h1{
     font-weight: 700;
     font-size: 128px;
     color: white;
+    margin-left: 130px;
+    text-shadow: rgb(29, 31, 31) 3px 4px 19px;
 }
-p{
+.design{
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 32px;
-    color: white;
+    color: white;   
+    margin-left: 130px;
 }
 button{
     font-family: "Oswald", sans-serif;
@@ -50,4 +53,29 @@ button{
     background-color: #F93B89;
     border-radius: 15px;
     margin-top: 42px;
+    margin-left: 130px;
+}
+#test{
+    width: 465px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    margin-top: 106px;
+    margin-left: 389px;
+    margin-right: 86px;
+    -webkit-box-shadow:0px 0px 141px 63px rgba(215,84,143,0.4);
+-moz-box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
+box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
+border-radius: 30px;
+}
+.about1{
+    font-family: "Oswald", sans-serif;
+    display: block;
+    justify-content: space-between;
+    font-size: 32px;
+}
+.about{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    align-items: center;
 }

@@ -61,26 +61,30 @@ button{
     display: flex;
     align-items: center;
     margin-top: 106px;
-    margin-left: 389px;
+    margin-left: 300px;
     margin-right: 86px;
     -webkit-box-shadow:0px 0px 141px 63px rgba(215,84,143,0.4);
 -moz-box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
 box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
 border-radius: 30px;
+
 }
 .about1{
     font-family: "Oswald", sans-serif;
     display: block;
     justify-content: space-between;
     font-size: 32px;
+    display: block;
 }
 .about{
     font-family: "Oswald", sans-serif;
     display: flex;
     align-items: center;
+
 }
 .tariff{
     font-family: "Oswald", sans-serif;
     display: block;
-    flex-direction: column;
+    
+
 }

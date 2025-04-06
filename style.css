@@ -8,15 +8,21 @@ header{
     align-items: center;
     justify-content: space-around; 
 }
-
-body,a,h1,h2{
+nav{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+body,a,h1{
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     margin-right: 60px;
     text-decoration: none;
     color: black;
     margin: 0; 
-
+a{
+    font-weight: bold;
+}
 }
 
 #cover{
@@ -44,9 +50,9 @@ h1{
     color: white;   
     margin-left: 130px;
 }
-button{
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
+
+#but{
+    font-weight: 500;
     font-size: 32px;
     height: 57px;
     width: 289px;
@@ -54,6 +60,7 @@ button{
     border-radius: 15px;
     margin-top: 42px;
     margin-left: 130px;
+    cursor: pointer;
 }
 #test{
     width: 465px;
@@ -61,7 +68,7 @@ button{
     display: flex;
     align-items: center;
     margin-top: 106px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 86px;
     -webkit-box-shadow:0px 0px 141px 63px rgba(215,84,143,0.4);
 -moz-box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
@@ -82,9 +89,139 @@ border-radius: 30px;
     align-items: center;
 
 }
-.tariff{
+ .tariff{
     font-family: "Oswald", sans-serif;
-    display: block;
-    
-
+    /* display: block; */
+    p{
+        margin-top: -30px;
+        font-size: 24px;
+    }
+    margin-left: 200px;
+    margin-top: 100px;
+h2{
+    font-size: 48px;
 }
+} 
+.courses{
+    #tariff1{
+border-radius: 30px;
+margin-right: 40px;
+height: 489px;
+    }
+    #tariff2{
+        border-radius: 30px;
+        margin-right: 40px;
+    }
+    #tariff3{
+        border-radius: 30px;
+        height: 489px;
+    }
+} 
+
+.info1{
+
+margin-top: 40px;
+.text1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.text2{
+    margin-top: 35px;
+}
+p{
+    font-size: 20px;
+    
+}
+button{
+    height: 45px;
+    width: 250px;
+    background-color: #F93B89;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+cursor: pointer;
+    
+}
+} 
+
+.info2{
+    margin-top: 40px;
+.text3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.text4{
+    margin-top: 35px;
+}
+p{
+    font-size: 20px;
+    
+}
+button{
+    height: 45px;
+    width: 250px;
+    background-color: #F93B89;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+cursor: pointer;
+    
+}
+}
+
+.info3{
+    margin-top: 40px;
+    margin-left: 60px;
+.text5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.text6{
+    margin-top: 35px;
+}
+p{
+    font-size: 20px;
+    
+}
+button{
+    height: 45px;
+    width: 250px;
+    background-color: #F93B89;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+cursor: pointer;
+    
+}
+}
+
+
+#info{
+    display: flex;
+    gap: 35px;
+}
+
+
+
+
+
+
+/* #cover2{
+    background-image: url(./media/heart.jpg);
+    width: 1900px;
+    height: 662px;
+    margin-top: 100px;
+display: flex;
+align-items: center;
+
+    
+    p{
+        font-size: 64px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+} */

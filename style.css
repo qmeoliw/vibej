@@ -16,15 +16,14 @@ nav{
 body,a,h1{
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    margin-right: 60px;
     text-decoration: none;
     color: black;
     margin: 0; 
+    
+}
 a{
     font-weight: bold;
 }
-}
-
 #cover{
     background-image: url(media/main.jpg);
     height: 757px;
@@ -92,35 +91,38 @@ border-radius: 30px;
  .tariff{
     font-family: "Oswald", sans-serif;
     /* display: block; */
-    p{
-        margin-top: -30px;
-        font-size: 24px;
-    }
     margin-left: 200px;
     margin-top: 100px;
-h2{
-    font-size: 48px;
+} 
+p{
+    margin-top: -30px;
+    font-size: 24px;
 }
-} 
+
+h2{
+font-size: 48px;
+}
 .courses{
-    #tariff1{
-border-radius: 30px;
-margin-right: 40px;
-height: 489px;
-    }
-    #tariff2{
-        border-radius: 30px;
-        margin-right: 40px;
-    }
-    #tariff3{
-        border-radius: 30px;
-        height: 489px;
-    }
+   
 } 
+#tariff1{
+    border-radius: 30px;
+    margin-right: 40px;
+    height: 489px;
+        }
+        #tariff2{
+            border-radius: 30px;
+            margin-right: 40px;
+        }
+        #tariff3{
+            border-radius: 30px;
+            height: 489px;
+        }
 
 .info1{
 
 margin-top: 40px;
+}
 .text1{
     font-size: 24px;
     font-weight: bold;
@@ -143,10 +145,12 @@ button{
 cursor: pointer;
     
 }
-} 
+
 
 .info2{
     margin-top: 40px;
+}
+
 .text3{
     font-size: 24px;
     font-weight: bold;
@@ -169,11 +173,12 @@ button{
 cursor: pointer;
     
 }
-}
+
 
 .info3{
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 60px;  
+}
 .text5{
     font-size: 24px;
     font-weight: bold;
@@ -181,9 +186,10 @@ cursor: pointer;
 .text6{
     margin-top: 35px;
 }
+
 p{
     font-size: 20px;
-    
+
 }
 button{
     height: 45px;
@@ -193,11 +199,8 @@ button{
     font-size: 20px;
     font-weight: bold;
     margin-left: 50px;
-cursor: pointer;
-    
+cursor: pointer; 
 }
-}
-
 
 #info{
     display: flex;
@@ -205,7 +208,12 @@ cursor: pointer;
 }
 
 
-
+.questions{
+    background-image: url(./media/heart.jpg);
+    width: auto;
+    height: 550px;
+    margin-top: 50px;
+}
 
 
 

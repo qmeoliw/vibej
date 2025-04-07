@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 .container{
     width: 1140px;
-    margin: 0 auto;
+    margin: 0 ;
+    margin-top: -50px;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    position: fixed;
 }
 nav{
     display: flex;
     gap: 50px;
     cursor: pointer;
+    
 }
 body,a,h1{
     font-family: "Oswald", sans-serif;
@@ -31,6 +34,7 @@ a{
     padding: 0;
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 
@@ -75,6 +79,9 @@ box-shadow: 0px 0px 141px 63px rgba(215,84,143,0.4);
 border-radius: 30px;
 
 }
+.dream{
+    margin-top: -30px;
+}
 .about1{
     font-family: "Oswald", sans-serif;
     display: block;
@@ -88,16 +95,16 @@ border-radius: 30px;
     align-items: center;
 
 }
+.tar{
+   margin: auto;
+   margin-top: 70px;
+}
  .tariff{
     font-family: "Oswald", sans-serif;
-    /* display: block; */
+
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 50px;
 } 
-p{
-    margin-top: -30px;
-    font-size: 24px;
-}
 
 h2{
 font-size: 48px;
@@ -124,12 +131,13 @@ margin-top: 40px;
 .text1{
     font-size: 24px;
     font-weight: bold;
+    margin-top: -45px;
 }
 .text2{
-    margin-top: 35px;
+    margin-top: -15px;
 }
 p{
-    font-size: 20px;
+    font-size: 24px;
     
 }
 button{
@@ -152,14 +160,12 @@ cursor: pointer;
 .text3{
     font-size: 24px;
     font-weight: bold;
+    margin-top: -45px;
 }
 .text4{
-    margin-top: 35px;
+    margin-top: -15px;
 }
-p{
-    font-size: 20px;
-    
-}
+
 button{
     height: 45px;
     width: 250px;
@@ -180,9 +186,10 @@ cursor: pointer;
 .text5{
     font-size: 24px;
     font-weight: bold;
+    margin-top: -45px;
 }
 .text6{
-    margin-top: 35px;
+    margin-top: -15px;
 }
 
 p{
@@ -197,6 +204,8 @@ button{
     font-size: 20px;
     font-weight: bold;
     margin-left: 50px;
+    border: 1;
+    border-color: black;
 cursor: pointer; 
 }
 
@@ -208,12 +217,158 @@ cursor: pointer;
 
 .questions{
     background-image: url(./media/heart.jpg);
+    position: relative;
     width: auto;
     height: 550px;
     margin-top: 100px;
+    
+}
+.questions::before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
 }
 
 .input{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+.FAQ{
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.reg{
+    margin-right: 55px;
+}
+
+
+.register1{
+     border: 2;
+    border-color: rgb(255, 255, 255);
+    height: 58px;
+    width: 360px;
+    border-radius: 20px;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    font-size: 20px;
+}
+.register2{
+    border: 2;
+   border-color: rgb(255, 255, 255);
+   height: 58px;
+   width: 360px;
+   border-radius: 20px;
+   background-color: black;
+   opacity: 50%;
+   color: white;
+   font-size: 20px;
+}
+
+.portfolio{
+    margin-left: 200px;
+}
+
+.unik{
+    margin-top: -50px;
+}
+.moreinfo{
+    margin-left: -4px;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px; 
+}
+
+.contact{
+    background-image: url(./media/Rectangle\ 15.png);
+    width: auto;
+    height: 600px;
+    /* margin-top: 100px; */
+
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.tg{
+    display: flex;
+    flex-direction: row;
+}
+.vk{
+    display: flex;
+    flex-direction: row;
+}
+.maincont{
+    display: flex;
+    gap: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.cont{
+    margin-top: 240px;
+}
+.map{
+    margin-top: 150px;
+}
+
+.ourcont{
+    font-size: 48px;
+    font-weight: 400;
+margin-left: 350px;
+margin-top: -450px;
+}
+
+.endlogo{
+    margin-top: 400px;
+    margin-left: 300px;
+}
+/* .end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 300px;
+} */
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    margin-top: -130px;
+}
+.endpicture{
+  margin-left: 300px;
+    
+    
 }

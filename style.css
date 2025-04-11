@@ -2,7 +2,7 @@
 .container {
   width: 1140px;
   margin: 0;
-  /* margin-top: -50px; */
+  /* margin-top: 50px; */
 }
 header {
   display: flex;
@@ -16,10 +16,10 @@ nav {
   cursor: pointer;
   text-shadow: rgb(29, 31, 31) 3px 4px 19px;
 }
+
 body,
 a,
 h1 {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: black;
@@ -30,14 +30,14 @@ a {
 }
 #cover {
   height: 757px;
-  /* margin: 0 ; */
-  /* padding: 0; */
   display: flex;
   align-items: center;
-  /* margin-top: 50px; */
   background-image: url(media/main.jpg);
+  margin: 0;
 }
-
+.main{
+  margin: auto;
+}
 h1 {
   font-weight: 700;
   font-size: 128px;
@@ -90,6 +90,7 @@ h1 {
 .tariff {
   width: 364px;
   border-radius: 26px;
+  box-shadow: 0 0 10px;
 }
 .card_headline {
   display: flex;
@@ -101,9 +102,9 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.catalog {
-  margin-left: 15%;
-  margin-top: 50px;
+#catalog {
+margin: auto;
+margin-top: 50px;
 }
 
 button {
@@ -153,6 +154,9 @@ h2 {
   position: relative;
   top: 30px;
 }
+input{
+  padding-left: 10px;
+}
 .FAQ {
   font-size: 64px;
   font-weight: 400;
@@ -189,8 +193,54 @@ h2 {
   color: white;
   font-size: 20px;
 }
+#portfolio{
+  margin: auto;
+  margin-top: 50px;
+}
+.box-s{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box{
+  margin-top: 20px;
+}
+.img{
+  width: 557px;
+  box-shadow: 0 0 10px, inset 1px 0 10px;
+  border-radius:25px ;
+}
+#contacts{
+  background-image: url(./media/Rectangle\ 15.png);
+  width: auto;
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contacts-item{
+  display: flex;
+  
+}
+.all-contacts{
+  display: flex;
+  
+}
 
-.portfolio {
+.contacts-description{
+display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.map{
+  border-radius: 20px;
+  width: 465px; 
+  height: 406px;
+  -webkit-box-shadow: 0px 0px 100px 30px rgba(46, 13, 28, 0.4);
+  -moz-box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
+  box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
+}
+/* .portfolio {
   margin-left: 200px;
   margin-top: 50px;
 }
@@ -219,9 +269,9 @@ h2 {
   width: auto;
   height: 600px;
   margin-top: 100px;
-}
+} */
 
-.phone {
+/* .phone {
   display: flex;
   flex-direction: row;
 }
@@ -276,4 +326,4 @@ h2 {
 }
 .endpicture {
   margin-left: 300px;
-}
+} */

@@ -189,6 +189,39 @@ input{
   color: white;
   font-size: 20px;
 }
+#portfolio{
+  margin: auto;
+  margin-top: 50px;
+}
+.box-s{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box{
+  margin-top: 20px;
+}
+.img{
+  width: 557px;
+  box-shadow: 0 0 10px, inset 1px 0 10px;
+  border-radius:25px ;
+}
+#contacts{
+  background-image: url(./media/Rectangle\ 15.png);
+  width: auto;
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contacts-item{
+  display: flex;
+  
+}
+.all-contacts{
+  display: flex;
+  
+}
 
 #portfolio{
   margin: auto;

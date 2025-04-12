@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
 .container {
   width: 1140px;
   margin: 0;
-  /* margin-top: -50px; */
+  margin-top: -50px;
 }
 header {
   display: flex;
@@ -16,10 +17,12 @@ nav {
   cursor: pointer;
   text-shadow: rgb(29, 31, 31) 3px 4px 19px;
 }
+p{
+  font-size: 20px;
+}
 body,
 a,
 h1 {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: black;
@@ -30,14 +33,15 @@ a {
 }
 #cover {
   height: 757px;
-  /* margin: 0 ; */
-  /* padding: 0; */
   display: flex;
   align-items: center;
-  /* margin-top: 50px; */
   background-image: url(media/main.jpg);
+  margin: 0;
+  margin-top: 50px;
 }
-
+.main{
+  margin: auto;
+}
 h1 {
   font-weight: 700;
   font-size: 128px;
@@ -55,7 +59,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+.about{
+  font-weight: 550;
 }
 .design {
   font-weight: 400;
@@ -90,6 +97,7 @@ h1 {
 .tariff {
   width: 364px;
   border-radius: 26px;
+  box-shadow: 0 0 10px;
 }
 .card_headline {
   display: flex;
@@ -101,9 +109,9 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.catalog {
-  margin-left: 15%;
-  margin-top: 50px;
+#catalog {
+margin: auto;
+margin-top: 50px;
 }
 
 button {
@@ -153,6 +161,9 @@ h2 {
   position: relative;
   top: 30px;
 }
+input{
+  padding-left: 10px;
+}
 .FAQ {
   font-size: 64px;
   font-weight: 400;
@@ -167,18 +178,7 @@ h2 {
   margin-right: 55px;
 }
 
-.register1 {
-  border: 2;
-  border-color: rgb(255, 255, 255);
-  height: 58px;
-  width: 360px;
-  border-radius: 20px;
-  background-color: black;
-  opacity: 50%;
-  color: white;
-  font-size: 20px;
-}
-.register2 {
+.register {
   border: 2;
   border-color: rgb(255, 255, 255);
   height: 58px;
@@ -190,90 +190,76 @@ h2 {
   font-size: 20px;
 }
 
-.portfolio {
-  margin-left: 200px;
+#portfolio{
+  margin: auto;
   margin-top: 50px;
 }
-
-.unik {
+.box-s{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box{
   margin-top: 20px;
 }
-.moreinfo {
-  margin-left: -4px;
+.img{
+  width: 557px;
+  box-shadow: 0 0 10px, inset 1px 0 10px;
+  border-radius:25px ;
 }
-
-.one {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-.two {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.contact {
+#contacts{
   background-image: url(./media/Rectangle\ 15.png);
   width: auto;
-  height: 600px;
-  margin-top: 100px;
-}
-
-.phone {
+  height: 626px;
   display: flex;
-  flex-direction: row;
-}
-.tg {
-  display: flex;
-  flex-direction: row;
-}
-.vk {
-  display: flex;
-  flex-direction: row;
-}
-.maincont {
-  display: flex;
-  gap: 300px;
-  margin-left: 350px;
+  justify-content: center;
   margin-top: 50px;
 }
-.cont {
-  margin-top: 240px;
+.contacts-item{
+  display: flex;
+  
 }
-.map {
-  margin-top: 150px;
+.all-contacts{
+  display: flex;
+  
+}
+
+.contacts-description{
+display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.map{
+  border-radius: 20px;
+  width: 465px; 
+  height: 406px;
   -webkit-box-shadow: 0px 0px 100px 30px rgba(46, 13, 28, 0.4);
   -moz-box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
   box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
-  border-radius: 30px;
 }
-
-.ourcont {
-  font-size: 48px;
-  font-weight: 400;
-  margin-left: 350px;
-  margin-top: -450px;
-}
-
-.endlogo {
-  margin-top: 400px;
-  margin-left: 300px;
-}
-.end {
+.endpicture{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  margin-left: 300px;
+
+  
 }
-.list {
+/* footer{
+  display: flex;
+
+
+
+} */
+.list{
   display: flex;
   flex-direction: column;
-  margin-left: 1000px;
-  margin-top: -130px;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: 90px;
 }
-.endpicture {
-  margin-left: 300px;
+.end{
+  margin-top: 90px;
+}
+.main-description{
+display: flex;
+justify-content: center;
+gap: 300px;
 }

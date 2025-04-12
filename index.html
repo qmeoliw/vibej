@@ -1,182 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vibe</title>
-    <script src="node.js" defer></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="container">
-      <img src="./media/logo.svg" alt="logo" />
-      <nav>
-        <a href="">Портфолио</a>
-        <a href="">Тарифы</a>
-        <a href="">Контакты</a>
-        <a href="">FAQ</a>
-        <a href="">О нас</a>
-      </nav>
-    </header>
-    <main>
-      <section id="cover">
-        <div class="cover-content">
-          <h1>
-            курсы по <br />
-            графическому дизайну
-          </h1>
-          <div class="design">
-            <p>
-              Графические дизайнеры создают фирменный стиль, логотипы, упаковку
-              и другой визуал, <br />благодаря которому компании становятся
-              известными
-            </p>
-          </div>
-          <a href=""><button id="but">Начать обучение</button></a>
-        </div>
-      </section>
-      <section id="about-us">
-        <div class="container about-us-content">
-          <img class="sculls" src="./media/sculls.jpg" alt="" />
 
-          <div class="about">
-            <h2>О нас</h2>
-            <p>
-              Вы мечтаете создавать впечатляющие логотипы,<br />
-              яркие рекламные баннеры и стильные веб-сайты?<br />
-              Хотите превратить свою креативность в прибыльную<br />
-              профессию? Тогда наши курсы по графическому<br />
-              дизайну – это то, что вам нужно!
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <section id="container catalog" class="container catalog">
-      <div class="block-description">
-        <h2>Тарифы</h2>
-        <p>
-          Мы предлагаем несколько тарифных планов, чтобы удовлетворить
-          потребности как начинающих дизайнеров, так и профессионалов. <br />
-          Выберите тот, который подходит именно вам!
-        </p>
-      </div>
-      <div class="cards">
-        <div class="card">
-          <img class="tariff" src="./media/tariff1.jpg" alt="" />
-            <div class="card_headline">
-              <h3>Дизайн сайта для интернет-магазина</h3>
-              <p>10999Р</p>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vibe</title>
+  <script src="node.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="main" class="container">
+    <img src="./media/logo.svg" alt="logo" />
+    <nav>
+      <a href="">Портфолио</a>
+      <a href="">Тарифы</a>
+      <a href="">Контакты</a>
+      <a href="">FAQ</a>
+      <a href="">О нас</a>
+    </nav>
+  </header>
+  <main>
+    <section id="cover">
+      <div class="cover-content">
+        <h1>
+          курсы по <br />
+          графическому дизайну
+        </h1>
+        <div class="design">
           <p>
-            Создание эффективного и <br />привлекательного интернет-магазина
-            —<br />
-            это ключ к успешным продажам.
+            Графические дизайнеры создают фирменный стиль, логотипы, упаковку
+            и другой визуал, <br />благодаря которому компании становятся
+            известными
           </p>
-          <button>Записаться на курс</button>
         </div>
-                    <div class="card">
-                        <img class="tariff" src="./media/tariff2.jpg" alt="">
-                        <div class="card_headline">
-                                      <h3>Дизайн сайта для интернет-магазина</h3>
-                                      <p>10999Р</p>
-                                    </div>
-                                  <p>
-                                    Создание эффективного и <br />привлекательного интернет-магазина
-                                    —<br />
-                                    это ключ к успешным продажам.
-                                  </p>
-                                  <button>Записаться на курс</button>
-                    </div>
-        
-        <div class="card">
-            <img class="tariff" src="./media/tariff3.jpg" alt="" />
-              <div class="card_headline">
-                <h3>Основы графического дизайна</h3>
-                <p>9990Р</p>
-              </div>
-            <p>
-                Графический дизайн — это искусство и<br> практика планирования и проектирования <br>идей.
-            </p>
-            <button>Записаться на курс</button>
-          </div>
+        <a href=""><button id="but">Начать обучение</button></a>
       </div>
     </section>
-    <div class="questions">
-      <p class="FAQ">Поможем решить все вопросы</p>
-      <form class="input" action="">
-        <input
-          placeholder="Введите имя"
-          type="name"
-          class="register1"
-          required
-        />
-        <input
-          type="email"
-          placeholder="Введите почту"
-          class="register2"
-          required
-        />
-        <a href=""><button class="reg">Регистрация</button></a>
-      </form>
-    </div>
-    <div class="portfolio">
-      <h2>Портфолио</h2>
-      <p class="unik">Уникальные работы наших студентов</p>
-      <div class="one">
-        <div class="box1">
-          <img src="./media/aleb.jpg" alt="" />
-          <p>Веб-дизайн сайта</p>
-          <a href=""><button class="moreinfo">Узнать больше</button></a>
-        </div>
-        <div class="box2">
-          <img src="./media/pink.jpg" alt="" />
-          <p>Дизайн логотипа</p>
-          <a href=""><button class="moreinfo">Узнать больше</button></a>
+    <section id="about-us">
+      <div class="container about-us-content">
+        <img class="sculls" src="./media/sculls.jpg" alt="" />
+
+        <div class="about">
+          <h2>О нас</h2>
+          <p>
+            Вы мечтаете создавать впечатляющие логотипы,<br />
+            яркие рекламные баннеры и стильные веб-сайты?<br />
+            Хотите превратить свою креативность в прибыльную<br />
+            профессию? Тогда наши курсы по графическому<br />
+            дизайну – это то, что вам нужно!
+          </p>
         </div>
       </div>
-      <div class="two">
-        <div class="box3">
-          <img src="./media/graf.jpg" alt="" />
-          <p>Графический дизайн</p>
-          <a href=""><button class="moreinfo">Узнать больше</button></a>
-        </div>
-        <div class="box4">
-          <img src="./media/star.jpg" alt="" />
-          <p>Главная страница портфолио</p>
-          <a href=""><button class="moreinfo">Узнать больше</button></a>
-        </div>
-      </div>
+    </section>
+  </main>
+  <section id="catalog" class="container">
+    <div class="block-description">
+      <h2>Тарифы</h2>
+      <p>
+        Мы предлагаем несколько тарифных планов, чтобы удовлетворить
+        потребности как начинающих дизайнеров, так и профессионалов. <br />
+        Выберите тот, который подходит именно вам!
+      </p>
     </div>
-    <div class="contact">
-      <div class="maincont">
-        <div class="cont">
-          <div class="phone">
-            <img src="./media/phone.png" alt="" />
-            <p>+7915415778</p>
-          </div>
-          <div class="tg">
-            <img src="./media/tg.png" alt="" />
-            <p>@piqwekism</p>
-          </div>
-          <div class="vk">
-            <img src="./media/vk.png" alt="" />
-            <p>@piqwe.kism</p>
-          </div>
+    <div class="cards">
+      <div class="card">
+        <img class="tariff" src="./media/tariff1.jpg" alt="" />
+        <div class="card_headline">
+          <h3>Дизайн сайта для интернет-магазина</h3>
+          <p>10999Р</p>
         </div>
-        <img class="map" src="./media/map.png" alt="" />
+        <p>
+          Создание эффективного и <br />привлекательного интернет-магазина
+          —<br />
+          это ключ к успешным продажам.
+        </p>
+        <a href=""><button>Записаться на курс</button></a>
       </div>
-    </div>
-    <h4 class="ourcont">Наши контакты</h4>
-    <footer>
-      <div class="endlogo">
-        <img src="./media/logo.svg" alt="" />
+      <div class="card">
+        <img class="tariff" src="./media/tariff2.jpg" alt="">
+        <div class="card_headline">
+          <h3>Дизайн сайта для интернет-магазина</h3>
+          <p>10999Р</p>
+        </div>
+        <p>
+          Создание эффективного и <br />привлекательного интернет-магазина
+          —<br />
+          это ключ к успешным продажам.
+        </p>
+        <a href=""><button>Записаться на курс</button></a>
       </div>
 
-      <div class="endpicture">
-        <img src="./media/phone.png" alt="" />
-        <img src="./media/tg.png" alt="" />
-        <img src="./media/vk.png" alt="" />
+      <div class="card">
+        <img class="tariff" src="./media/tariff3.jpg" alt="" />
+        <div class="card_headline">
+          <h3>Основы графического дизайна</h3>
+          <p>9990Р</p>
+        </div>
+        <p>
+          Графический дизайн — это искусство и<br> практика планирования и проектирования <br>идей.
+        </p>
+        <a href=""><button>Записаться на курс</button></a>
+      </div>
+    </div>
+  </section>
+  <div class="questions">
+    <p class="FAQ">Поможем решить все вопросы</p>
+    <form class="input" action="">
+      <input placeholder="Введите имя" type="name" class="register" required />
+      <input type="email" placeholder="Введите почту" class="register" required />
+      <a href=""><button class="reg">Регистрация</button></a>
+    </form>
+  </div>
+  <section id="portfolio" class="container">
+    <div class="information">
+      <div class="box-description">
+        <h2>Портфолио</h2>
+        <p>Уникальные работы наших студентов</p>
+      </div>
+      <div class="box-s">
+        <div class="box">
+          <img class="img" src="./media/aleb.jpg" alt="">
+          <p>Веб-дизайн сайта</p>
+          <a href=""><button>Узнать больше</button></a>
+        </div>
+        <div class="box">
+          <img class="img" src="./media/pink.jpg" alt="">
+          <p>Дизайн логотипа</p>
+          <a href=""><button>Узнать больше</button></a>
+        </div>
+        <div class="box">
+          <img class="img" src="./media/graf.jpg" alt="">
+          <p>Графический дизайн</p>
+          <a href=""><button>Узнать больше</button></a>
+        </div>
+        <div class="box">
+          <img class="img" src="./media/star.jpg" alt="">
+          <p>Главная страница портфолио</p>
+          <a href=""><button>Узнать больше</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacts" class="container all-contacts">
+    <div class="contacts-description">
+      <div class="information">
+        <h2>Наши контакты</h2>
+        <div class="contacts-item">
+          <img src="./media/phone.png" alt="">
+          <p>+7915415778</p>
+        </div>
+        <div class="contacts-item">
+          <img src="./media/tg.png" alt="">
+          <p>@piqwekism</p>
+        </div>
+        <div class="contacts-item">
+          <img src="./media/vk.png" alt="">
+          <p>@piqwe.kism</p>
+        </div>
+      
+      </div>
+      <img class="map" src="./media/map.png" alt="">
+    </div>
+  </section>
+  <footer id="footer" class="container">
+    <div class="main-description">
+      <div class="end">
+        <div class="endlogo">
+          <img src="./media/logo.svg" alt="" />
+        </div>
+        <div class="endpicture">
+          <img src="./media/phone.png" alt="" />
+          <img src="./media/tg.png" alt="" />
+          <img src="./media/vk.png" alt="" />
+        </div>
       </div>
       <div class="list">
         <a href="">Портфолио</a>
@@ -185,6 +182,8 @@
         <a href="">FAQ</a>
         <a href="">О нас</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>

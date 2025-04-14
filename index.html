@@ -10,14 +10,14 @@
 </head>
 
 <body>
-  <header id="main" class="container">
+  <header id="main" >
     <img src="./media/logo.svg" alt="logo" />
     <nav>
-      <a href="">Портфолио</a>
-      <a href="">Тарифы</a>
-      <a href="">Контакты</a>
-      <a href="">FAQ</a>
-      <a href="">О нас</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#catalog">Тарифы</a>
+      <a href="#contacts">Контакты</a>
+      <a href="#questions">FAQ</a>
+      <a href="#about-us">О нас</a>
     </nav>
   </header>
   <main>
@@ -53,7 +53,7 @@
         </div>
       </div>
     </section>
-  </main>
+
   <section id="catalog" class="container">
     <div class="block-description">
       <h2>Тарифы</h2>
@@ -104,14 +104,16 @@
       </div>
     </div>
   </section>
-  <div class="questions">
-    <p class="FAQ">Поможем решить все вопросы</p>
-    <form class="input" action="">
-      <input placeholder="Введите имя" type="name" class="register" required />
-      <input type="email" placeholder="Введите почту" class="register" required />
-      <a href=""><button class="reg">Регистрация</button></a>
-    </form>
-  </div>
+  <section id="questions">
+    <div class="questions">
+      <p class="FAQ">Поможем решить все вопросы</p>
+      <form class="input" action="">
+        <input id="btn" placeholder="Введите имя" type="name" class="register" required />
+        <input id="btn" type="email" placeholder="Введите почту" class="register" required />
+        <a href=""><button class="reg">Регистрация</button></a>
+      </form>
+    </div>
+  </section>
   <section id="portfolio" class="container">
     <div class="information">
       <div class="box-description">
@@ -147,22 +149,23 @@
       <div class="information">
         <h2>Наши контакты</h2>
         <div class="contacts-item">
-          <img src="./media/phone.png" alt="">
+          <img class="social"src="./media/phone.png" alt="">
           <p>+7915415778</p>
         </div>
         <div class="contacts-item">
-          <img src="./media/tg.png" alt="">
+          <img class="social" src="./media/tg.png" alt="">
           <p>@piqwekism</p>
         </div>
         <div class="contacts-item">
-          <img src="./media/vk.png" alt="">
+          <img class="social"src="./media/vk.png" alt="">
           <p>@piqwe.kism</p>
         </div>
-      
+
       </div>
       <img class="map" src="./media/map.png" alt="">
     </div>
   </section>
+</main>
   <footer id="footer" class="container">
     <div class="main-description">
       <div class="end">
@@ -170,20 +173,20 @@
           <img src="./media/logo.svg" alt="" />
         </div>
         <div class="endpicture">
-          <img src="./media/phone.png" alt="" />
-          <img src="./media/tg.png" alt="" />
-          <img src="./media/vk.png" alt="" />
+          <img class="social" src="./media/phone.png" alt="" />
+          <img class="social" src="./media/tg.png" alt="" />
+          <img class="social" src="./media/vk.png" alt="" />
         </div>
       </div>
-    
-    <div class="list">
-      <a href="">Портфолио</a>
-      <a href="">Тарифы</a>
-      <a href="">Контакты</a>
-      <a href="">FAQ</a>
-      <a href="">О нас</a>
+
+      <div class="list">
+        <a href="">Портфолио</a>
+        <a href="">Тарифы</a>
+        <a href="">Контакты</a>
+        <a href="">FAQ</a>
+        <a href="">О нас</a>
+      </div>
     </div>
-  </div>
   </footer>
 </body>
 

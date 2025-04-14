@@ -2,14 +2,18 @@
 
 .container {
   width: 1140px;
-  margin: 0;
-  margin-top: -50px;
+  margin: 0 auto;
+  /* margin-top: -50px; */
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  
 }
 nav {
   display: flex;
@@ -18,11 +22,13 @@ nav {
   text-shadow: rgb(29, 31, 31) 3px 4px 19px;
 }
 p{
+  font-family: "Oswald";
   font-size: 20px;
 }
 body,
 a,
 h1 {
+  font-family: "Oswald";
   font-weight: 400;
   text-decoration: none;
   color: black;
@@ -37,7 +43,7 @@ a {
   align-items: center;
   background-image: url(media/main.jpg);
   margin: 0;
-  margin-top: 50px;
+  
 }
 .main{
   margin: auto;
@@ -79,11 +85,11 @@ h1 {
   border-radius: 30px;
 }
 #but {
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 32px;
   height: 57px;
   width: 289px;
-  background-color: #f93b89;
   border-radius: 15px;
   margin-top: 42px;
   margin-left: 130px;
@@ -93,7 +99,24 @@ h1 {
   border-style: solid;
   box-shadow: 0 0 10px, inset 1px 0 10px;
 }
-
+button {
+  font-family: "Oswald";
+  height: 45px;
+  width: 250px;
+  background-color: #f93b89;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 50px;
+  cursor: pointer;
+  /* text-shadow: rgb(29, 31, 31) 3px 4px 19px; */
+  box-shadow: 0 0 10px, inset 1px 0 10px;
+  border-style: solid;
+}
+#but:hover{
+  background-color: #9E2E5D;
+  transition-duration: 400ms;
+}
 .tariff {
   width: 364px;
   border-radius: 26px;
@@ -114,21 +137,10 @@ margin: auto;
 margin-top: 50px;
 }
 
-button {
-  height: 45px;
-  width: 250px;
-  background-color: #f93b89;
-  border-radius: 15px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 50px;
-  cursor: pointer;
-  /* text-shadow: rgb(29, 31, 31) 3px 4px 19px; */
-  box-shadow: 0 0 10px, inset 1px 0 10px;
-  border-style: solid;
-}
+
 
 h2 {
+  font-family: "Oswald";
   font-size: 48px;
   margin: 0;
 }
@@ -179,7 +191,7 @@ input{
 }
 
 .register {
-  border: 2;
+  /* border: 2; */
   border-color: rgb(255, 255, 255);
   height: 58px;
   width: 360px;
@@ -205,6 +217,7 @@ input{
   width: 557px;
   box-shadow: 0 0 10px, inset 1px 0 10px;
   border-radius:25px ;
+
 }
 #contacts{
   background-image: url(./media/Rectangle\ 15.png);
@@ -270,11 +283,6 @@ display: flex;
   -moz-box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
   box-shadow: 0px 0px 100px 30px rgba(215, 84, 143, 0.4);
 }
-.endpicture{
-  display: flex;
-
-  
-}
 .list{
   display: flex;
   flex-direction: column;
@@ -288,5 +296,12 @@ display: flex;
 .main-description{
 display: flex;
 justify-content: center;
-gap: 300px;
+gap: 600px;
+}
+.social{
+  width: 50px;
+  height: 50px;
+}
+footer{
+  padding-bottom: 50px;
 }
